@@ -1249,6 +1249,8 @@ exit:
 
 bool MultiROM::injectBoot(std::string img_path, bool only_if_older)
 {
+  only_if_older = false;
+
 	int rd_cmpr;
 	struct bootimg img;
 	std::string path_trampoline = m_path + "/trampoline";
