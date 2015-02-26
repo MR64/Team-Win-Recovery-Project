@@ -358,7 +358,8 @@ LOCAL_ADDITIONAL_DEPENDENCIES := \
     dosfsck \
     dosfslabel \
     fsck_msdos_symlink \
-    mkdosfs
+    mkdosfs \
+    zip
 
 ifneq ($(TARGET_ARCH), arm64)
     LOCAL_LDFLAGS += -Wl,-dynamic-linker,/sbin/linker
