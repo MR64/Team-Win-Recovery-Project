@@ -363,7 +363,8 @@ LOCAL_ADDITIONAL_DEPENDENCIES := \
     dosfsck \
     dosfslabel \
     fsck_msdos_symlink \
-    mkdosfs
+    mkdosfs \
+    zip
 
 # MultiROM additions
 LOCAL_ADDITIONAL_DEPENDENCIES += \
